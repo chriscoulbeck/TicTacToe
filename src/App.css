@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 20px;
+}
+
+.board-status {
+  margin-bottom: 10px;
+}
+
+.board {
+  display: inline-block;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  border: 1px solid #999;
+  background-color: #fff;
+  height: 50px;
+  width: 50px;
+  margin: -1px;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.unselected:hover {
+  background-color: #f7f6f6;
+}
